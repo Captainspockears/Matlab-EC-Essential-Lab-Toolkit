@@ -12,44 +12,55 @@ Any contributions are welcome. Please feel free to fork and send a pull request 
 6. [checkcorr](#checkcorr)
 
 # gettwiddle
-Description: Returns the twiddle factor  
+Description:  
+Returns the twiddle factor.  
 Parameters:  
 N - Total number of elements  
 k - k  
 n - n  
 type - 0 for dft, 1 for idft    
-Return Value: W - Twiddle factor
+Return Value:  
+W - Twiddle factor.  
 
 # dft
-Description: Returns the dft of a sequence  
+Description:  
+Returns the dft of a sequence  
 Parameters:  
-x - signal sequence
-Return Value: X - signal series with DFT  
+x - signal sequence.  
+Return Value:  
+X - signal series with DFT  
 
 # idft
-Description: Returns the IDFT of a sequence  
+Description:  
+Returns the IDFT of a sequence  
 Parameters:  
 x - signal sequence  
-Return Value: X - signal series with IDFT  
+Return Value:  
+X - signal series with IDFT  
 
 # linconv
-Description: Returns the linear convolution of x and h  
+Description:  
+Returns the linear convolution of x and h  
 Parameters:  
 x - x  
 h - h  
-Return Value: Y - linear convolution of x and h  
+Return Value:  
+Y - linear convolution of x and h.    
 
 # circonv
-Description: Returns the circular convolution of x and h    
+Description:  
+Returns the circular convolution of x and h    
 Parameters:  
 x - x  
 h - h  
-Return Value: Y - circular convolution of x and h  
+Return Value:  
+Y - circular convolution of x and h   
 
 # checkcorr
-Description: Checks if a given series is correlational  
-Parameters: 
-x - signal series
-Return Value:
-0 - if not correlational
-1 - if correlational
+Description:  
+Checks if a given series is correlational   
+Parameters:  
+x - signal series.  
+Return Value:  
+0 - if not correlational.  
+1 - if correlational.  
