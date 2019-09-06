@@ -4,13 +4,13 @@ The essential functions required for Electronics and Communication Engineering L
 Any contributions are welcome. Please feel free to fork and send a pull request to this project.
 
 ## Index
-1. [gettwiddle](#gettwiddle)
-2. [dft](#dft)
-3. [idft](#idft)
-4. [linconv](#linconv)
-5. [circconv](#circonv)
-6. [checkcorr](#checkcorr)
-7. [autocorr](#autocorr)
+1. Twiddle Factor - [gettwiddle](#gettwiddle)
+2. DFT - [dft](#dft)
+3. IDFT - [idft](#idft)
+4. Linear Convolution - [linconv](#linconv)
+5. Circular Convolution - [circconv](#circonv)
+6. Check Correlation - [checkcorr](#checkcorr)
+7. Autocorrelation - [autocorr](#autocorr)
 
 # gettwiddle
 Description:  
