@@ -10,6 +10,7 @@ Any contributions are welcome. Please feel free to fork and send a pull request 
 4. [linconv](#linconv)
 5. [circconv](#circonv)
 6. [checkcorr](#checkcorr)
+7. [autocorr](#autocorr)
 
 # gettwiddle
 Description:  
@@ -64,3 +65,11 @@ x - signal series.
 Return Value:  
 0 - if not correlational.  
 1 - if correlational.  
+
+# autocorr
+Description:  
+Returns the autocorrelation of a sequence  
+Parameters:  
+x - signal sequence  
+Return Value:  
+Y - autocorrelated sequence  
