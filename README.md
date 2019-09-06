@@ -21,7 +21,8 @@ k - k
 n - n  
 type - 0 for dft, 1 for idft    
 Return Value:  
-W - Twiddle factor.  
+W - Twiddle factor.    
+[code](gettwiddle.m)
 
 # dft
 Description:  
@@ -30,6 +31,7 @@ Parameters:
 x - signal sequence.  
 Return Value:  
 X - signal series with DFT  
+[code](dft.m)
 
 # idft
 Description:  
@@ -38,6 +40,7 @@ Parameters:
 x - signal sequence  
 Return Value:  
 X - signal series with IDFT  
+[code](idft.m)
 
 # linconv
 Description:  
@@ -47,6 +50,7 @@ x - x
 h - h  
 Return Value:  
 Y - linear convolution of x and h.    
+[code](linconv.m)
 
 # circonv
 Description:  
@@ -56,6 +60,7 @@ x - x
 h - h  
 Return Value:  
 Y - circular convolution of x and h   
+[code](circonv.m)
 
 # checkcorr
 Description:  
@@ -65,6 +70,7 @@ x - signal series.
 Return Value:  
 0 - if not correlational.  
 1 - if correlational.  
+[code](checkcorr.m)
 
 # autocorr
 Description:  
@@ -73,3 +79,5 @@ Parameters:
 x - signal sequence  
 Return Value:  
 Y - autocorrelated sequence  
+[code](autocorr.m)  
+[graph](autocorrelation.JPG)
