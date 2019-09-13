@@ -1,24 +1,21 @@
-function [Y] = crosscorr(x,y)
+clc;
+clear all;
+x = input('input sequence y=');
+X = length(x);
+h = input('input sequence x=');
+H = length(h);
+N=H+X-1
+h1 = [zeros(1,(N-H)),h,zeros(1,(N-H))];
 
-    m=length(x);
-    n=length(y);
-    N=m+n-1;
-    x1=[zeros(1,(N-m)),x,zeros(1,(N-m))];
-    disp(x1)
-    for k=1:N
-        Y(k) = 0;
-        for p=1:m
-            disp(x1(p+k-1)*y(p))
-            Y(k) = Y(k) + x1(p+k-1)*y(p);
-        end
-        disp(Y)
-    end    
-        
-    disp(Y);
-    stem(Y);
-    xlabel('time')
-    ylabel('amplitude')
-    title('Crosscorrelation')
-    disp(xcorr(x,y));
-
+for k = 1:N
+    y(k) = 0;
+    for i = 1:X
+       
+            y(k) = y(k)+x(i)*h1(k+i-1);
+    end 
 end
+disp(y)
+    stem(y)
+    xlabel('time');
+    ylabel('amplitude');
+    title('cross corelation');

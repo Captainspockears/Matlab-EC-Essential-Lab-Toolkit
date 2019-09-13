@@ -1,19 +1,20 @@
-function [Y] = autocorr(x)
+clc;
+clear all;
+x = input('input sequence x=');
+m = length(x);
 
-    m=length(x);
-    N=2*m-1;
-    x1=[zeros(1,(N-m)),x,zeros(1,(N-m))];
-    for k=1:N
-        Y(k) = 0;
-        for n=1:m
-            Y(k) = Y(k) + x1(n+k-1)*x(n);
-        end
-    end    
-        
-    disp(Y);
-    stem(Y);
-    xlabel('time')
-    ylabel('amplitude')
-    title('Autocorrelation')
+n = 2*m-1;
+x1 = [zeros(1,(n-m)),x,zeros(1,(n-m))];
 
+for k = 1:n
+    y(k) = 0;
+    for i = 1:m
+       
+            y(k) = y(k)+x(i)*x1(k+i-1);
+    end 
 end
+disp(y)
+    stem(y)
+    xlabel('time');
+    ylabel('amplitude');
+    title('auto corelation');
