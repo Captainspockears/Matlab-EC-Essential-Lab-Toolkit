@@ -1,0 +1,10 @@
+Enter the passband attenuation ap = 0.5
+Enter the stopband attenuation as = 0.6
+Enter the passband frequency wp = [0.25 0.395]
+Enter the stopband frequency ws = [0.125 0.525]
+ 
+num/den = 
+ 
+         0.61834 bandpass^2 - 0.61834
+   ---------------------------------------
+   bandpass^2 - 0.41465 bandpass - 0.23667

@@ -1,0 +1,11 @@
+Enter the ripple factor r = 15
+Enter the passband attenuation ap = 0.5
+Enter the stopband attenuation as = 0.6
+Enter the passband frequency wp = 0.66
+Enter the stopband frequency ws = 0.33
+ 
+num/den = 
+ 
+   0.23405 z + 0.23405
+   -------------------
+       z - 0.53191
